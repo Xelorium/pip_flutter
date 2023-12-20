@@ -108,10 +108,10 @@ packages:
     dependency: transitive
     description:
       name: flutter_widget_from_html_core
-      sha256: "0c2e52919b798520a5a1f4a4751aeebc86e7e6045944fdfc192e3997c294cb53"
+      sha256: "86d40a9f26d10011664df057c950e9c348ee1a7dbf141f295a07b0075ffd780b"
       url: "https://pub.dev"
     source: hosted
-    version: "0.8.2"
+    version: "0.14.9"
   html:
     dependency: transitive
     description:
@@ -136,6 +136,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.1"
+  logging:
+    dependency: transitive
+    description:
+      name: logging
+      sha256: "623a88c9594aa774443aa3eb2d41807a48486b5613e67599fb4c41c0ad47c340"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.2.0"
   matcher:
     dependency: transitive
     description:
@@ -414,4 +422,4 @@ packages:
     version: "5.3.1"
 sdks:
   dart: ">=3.2.0-194.0.dev <4.0.0"
-  flutter: ">=3.1.0-0"
+  flutter: ">=3.7.0"
