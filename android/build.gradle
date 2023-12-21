@@ -33,7 +33,7 @@ android {
     ext.gradleVersion = "7.4.2"
     ext.kotlinVersion = "1.9.21"
 
-    compileSdk 34
+    compileSdk 33
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
