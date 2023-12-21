@@ -2,7 +2,7 @@ group 'com.example.pip_flutter'
 version '1.0-SNAPSHOT'
 
 buildscript {
-    ext.kotlin_version = '1.9.0'
+    ext.kotlin_version = '1.7.0'
     repositories {
         google()
         mavenCentral()
@@ -27,10 +27,10 @@ apply plugin: 'kotlin-android'
 android {
 
     ext.exoPlayerVersion = "2.19.1"
-    ext.lifecycleVersion = "2.7.0-alpha02"
+    ext.lifecycleVersion = "2.6.2"
     ext.annotationVersion = "1.7.1"
     ext.workVersion = "2.7.0"
-    ext.gradleVersion = "7.4.2"
+    ext.gradleVersion = "7.1.0"
     ext.kotlinVersion = "1.9.21"
 
     compileSdk 33
